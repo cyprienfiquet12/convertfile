@@ -1,0 +1,1 @@
+name=Alice%20Dupont&email=alice%40example.com&age=28&city=Paris&active=true&preferences[theme]=dark&preferences[language]=fr&tags[0]=developer&tags[1]=frontend 

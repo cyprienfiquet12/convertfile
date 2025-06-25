@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" viewBox="0 0 200 200">
+  <!-- Background circle -->
+  <circle cx="100" cy="100" r="90" fill="#3B82F6" stroke="#1E40AF" stroke-width="4"/>
+  
+  <!-- Icon representing file conversion -->
+  <g fill="white">
+    <!-- Left document -->
+    <rect x="30" y="60" width="40" height="50" rx="4" fill="white"/>
+    <rect x="35" y="70" width="30" height="2" fill="#3B82F6"/>
+    <rect x="35" y="75" width="25" height="2" fill="#3B82F6"/>
+    <rect x="35" y="80" width="30" height="2" fill="#3B82F6"/>
+    
+    <!-- Arrow -->
+    <path d="M80 85 L115 85 L110 80 M115 85 L110 90" stroke="white" stroke-width="3" fill="none"/>
+    
+    <!-- Right document -->
+    <rect x="130" y="60" width="40" height="50" rx="4" fill="white"/>
+    <rect x="135" y="70" width="30" height="2" fill="#3B82F6"/>
+    <rect x="135" y="75" width="25" height="2" fill="#3B82F6"/>
+    <rect x="135" y="80" width="30" height="2" fill="#3B82F6"/>
+  </g>
+  
+  <!-- Title -->
+  <text x="100" y="140" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="16" font-weight="bold">ConvertFile</text>
+</svg> 

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<users>
+  <user id="1">
+    <name>Alice Dupont</name>
+    <email>alice@example.com</email>
+    <age>28</age>
+    <city>Paris</city>
+    <active>true</active>
+    <preferences>
+      <theme>dark</theme>
+      <language>fr</language>
+    </preferences>
+  </user>
+  <user id="2">
+    <name>Bob Martin</name>
+    <email>bob@example.com</email>
+    <age>34</age>
+    <city>Lyon</city>
+    <active>false</active>
+    <preferences>
+      <theme>light</theme>
+      <language>en</language>
+    </preferences>
+  </user>
+  <user id="3">
+    <name>Claire Durand</name>
+    <email>claire@example.com</email>
+    <age>25</age>
+    <city>Marseille</city>
+    <active>true</active>
+    <preferences>
+      <theme>dark</theme>
+      <language>fr</language>
+    </preferences>
+  </user>
+</users> 

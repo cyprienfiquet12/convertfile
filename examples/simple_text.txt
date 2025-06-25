@@ -1,0 +1,30 @@
+Bienvenue dans ConvertFile
+
+Cette application permet de convertir des fichiers entre différents formats.
+Elle supporte de nombreux types de conversions :
+
+Formats de données :
+- JSON vers CSV, XML, YAML
+- CSV vers JSON, XML  
+- XML vers JSON, CSV
+
+Encodage et décodage :
+- Base64
+- URL encoding
+- Query strings
+
+Transformations de texte :
+- Changement de casse
+- Formatage JSON
+- Statistiques
+
+L'application fonctionne entièrement côté client pour votre sécurité.
+Visitez https://github.com/example/convertfile pour plus d'informations.
+
+Fonctionnalités principales :
+1. Glisser-déposer de fichiers
+2. Conversion en temps réel
+3. Téléchargement des résultats
+4. Interface moderne et intuitive
+
+IMPORTANT : Tous vos fichiers restent privés et ne sont jamais envoyés sur un serveur. 

@@ -1,0 +1,1 @@
+Hello%20World%21%20Ceci%20est%20un%20exemple%20de%20texte%20encod%C3%A9%20en%20URL%20encoding.%20ConvertFile%20peut%20d%C3%A9coder%20ce%20texte. 

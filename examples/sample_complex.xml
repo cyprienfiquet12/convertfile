@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <book id="1" category="fiction">
+    <title>Le Petit Prince</title>
+    <author>
+      <name>Antoine de Saint-Exupéry</name>
+      <nationality>French</nationality>
+    </author>
+    <price currency="EUR">12.99</price>
+    <publication_year>1943</publication_year>
+    <available>true</available>
+    <tags>
+      <tag>classic</tag>
+      <tag>children</tag>
+      <tag>philosophy</tag>
+    </tags>
+  </book>
+  <book id="2" category="science">
+    <title>Une brève histoire du temps</title>
+    <author>
+      <name>Stephen Hawking</name>
+      <nationality>British</nationality>
+    </author>
+    <price currency="EUR">15.50</price>
+    <publication_year>1988</publication_year>
+    <available>false</available>
+    <tags>
+      <tag>science</tag>
+      <tag>physics</tag>
+      <tag>cosmology</tag>
+    </tags>
+  </book>
+  <book id="3" category="fiction">
+    <title>1984</title>
+    <author>
+      <name>George Orwell</name>
+      <nationality>British</nationality>
+    </author>
+    <price currency="EUR">10.00</price>
+    <publication_year>1949</publication_year>
+    <available>true</available>
+    <tags>
+      <tag>dystopia</tag>
+      <tag>political</tag>
+    </tags>
+  </book>
+</catalog> 

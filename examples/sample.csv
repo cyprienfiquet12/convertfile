@@ -1,0 +1,4 @@
+id,name,email,age,city,active
+1,"Alice Dupont","alice@example.com",28,"Paris",true
+2,"Bob Martin","bob@example.com",34,"Lyon",false
+3,"Claire Durand","claire@example.com",25,"Marseille",true 

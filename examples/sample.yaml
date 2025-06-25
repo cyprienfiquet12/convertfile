@@ -1,0 +1,46 @@
+application:
+  name: ConvertFile
+  version: "1.0.0"
+  description: Application de conversion de fichiers multi-format
+
+server:
+  host: localhost
+  port: 3000
+  ssl: false
+
+database:
+  host: localhost
+  port: 5432
+  name: convertfile_db
+  username: admin
+  password: secret123
+  ssl_mode: prefer
+
+features:
+  - file_upload
+  - format_detection
+  - real_time_conversion
+  - download_results
+
+supported_formats:
+  input:
+    - json
+    - csv
+    - xml
+    - yaml
+    - markdown
+    - html
+  output:
+    - json
+    - csv
+    - xml
+    - yaml
+    - html
+    - base64
+    - sql
+
+logging:
+  level: info
+  file: /var/log/convertfile.log
+  max_size: 100MB
+  retention_days: 30 
