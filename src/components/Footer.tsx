@@ -33,28 +33,6 @@ export default function Footer() {
               <Link href="/conditions-utilisation" className="text-gray-400 hover:text-white text-sm transition-colors">
                 Conditions d&apos;utilisation
               </Link>
-              <Link href="/politique-cookies" className="text-gray-400 hover:text-white text-sm transition-colors">
-                Politique des cookies
-              </Link>
-            </nav>
-          </div>
-
-          {/* Support */}
-          <div className="space-y-4">
-            <h4 className="text-md font-medium text-white">Support</h4>
-            <nav className="flex flex-col space-y-2">
-              <Link href="/contact" className="text-gray-400 hover:text-white text-sm transition-colors">
-                Contact
-              </Link>
-              <Link href="/faq" className="text-gray-400 hover:text-white text-sm transition-colors">
-                FAQ
-              </Link>
-              <Link href="/guide" className="text-gray-400 hover:text-white text-sm transition-colors">
-                Guide d&apos;utilisation
-              </Link>
-              <a href="mailto:contact@convertfile.fr" className="text-gray-400 hover:text-white text-sm transition-colors">
-                contact@convertfile.fr
-              </a>
             </nav>
           </div>
 
@@ -63,19 +41,16 @@ export default function Footer() {
             <h4 className="text-md font-medium text-white">Technique</h4>
             <nav className="flex flex-col space-y-2">
               <Link href="/api" className="text-gray-400 hover:text-white text-sm transition-colors">
-                API Documentation
+                API Documentation (A venir)
               </Link>
               <a 
-                href="https://github.com/votre-username/convertfile" 
+                href="https://github.com/cyprienfiquet12/convertfile" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="text-gray-400 hover:text-white text-sm transition-colors"
               >
                 Code source
               </a>
-              <Link href="/status" className="text-gray-400 hover:text-white text-sm transition-colors">
-                Statut du service
-              </Link>
             </nav>
           </div>
         </div>

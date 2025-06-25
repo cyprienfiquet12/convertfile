@@ -1,4 +1,4 @@
-import { CodeBracketIcon, ArrowPathIcon } from '@heroicons/react/24/outline';
+import Image from 'next/image';
 
 export default function Navbar() {
   return (
@@ -8,7 +8,13 @@ export default function Navbar() {
           {/* Logo et titre */}
           <div className="flex items-center space-x-3">
             <div className="flex-shrink-0">
-              <CodeBracketIcon className="h-8 w-8 text-primary-400" />
+              <Image 
+                src="/logo.png" 
+                alt="ConvertFile Logo" 
+                width={64} 
+                height={64}
+                className="h-16 w-16"
+              />
             </div>
             <div>
               <h1 className="text-xl font-bold text-white">ConvertFile</h1>

@@ -424,7 +424,8 @@ export default function Home() {
         <title>ConvertFile - Convertisseur de fichiers universel</title>
         <meta name="description" content="Convertissez facilement vos fichiers entre différents formats : JSON, CSV, XML, YAML, Markdown, HTML, Base64, images et plus encore." />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/logo.ico" />
+        <link rel="apple-touch-icon" href="/logo.png" />
       </Head>
       
       <div className="min-h-screen bg-gradient-to-br from-gray-900 to-gray-800">
