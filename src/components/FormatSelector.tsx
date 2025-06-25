@@ -25,7 +25,7 @@ export default function FormatSelector({
             Aucune conversion disponible
           </h3>
           <p className="text-gray-400 text-sm">
-            Le format {inputType.toUpperCase()} n'a pas de conversions supportées pour le moment.
+            Le format {inputType.toUpperCase()} n&apos;a pas de conversions supportées pour le moment.
           </p>
         </div>
       </div>

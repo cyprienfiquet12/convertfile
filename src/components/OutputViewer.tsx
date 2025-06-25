@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import Image from 'next/image';
 import { 
   DocumentArrowDownIcon, 
   ClipboardDocumentIcon, 
@@ -250,15 +251,19 @@ export default function OutputViewer({
           {outputFormat && ['png', 'jpeg', 'jpg', 'webp', 'gif', 'bmp', 'ico', 'tiff'].includes(outputFormat.toLowerCase()) && outputContent.startsWith('data:') ? (
             <div className="p-4">
               <div className="flex flex-col items-center space-y-4">
-                <img 
-                  src={outputContent} 
-                  alt="Image convertie"
-                  className="max-w-full max-h-96 border border-gray-600 rounded-lg shadow-lg"
-                  style={{ objectFit: 'contain' }}
-                />
+                <div className="relative max-w-full max-h-96 border border-gray-600 rounded-lg shadow-lg overflow-hidden">
+                  <Image 
+                    src={outputContent} 
+                    alt="Image convertie"
+                    width={500}
+                    height={400}
+                    className="object-contain w-full h-full"
+                    unoptimized={true}
+                  />
+                </div>
                 <div className="text-sm text-gray-400 text-center">
                   <p>Image convertie en format {outputFormat.toUpperCase()}</p>
-                  <p className="text-xs mt-1">Cliquez sur "Télécharger" pour sauvegarder l'image</p>
+                  <p className="text-xs mt-1">Cliquez sur &quot;Télécharger&quot; pour sauvegarder l&apos;image</p>
                 </div>
               </div>
             </div>
